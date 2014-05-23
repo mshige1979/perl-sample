@@ -12,4 +12,22 @@ perlのソースサンプルコード
             </small>
         </div>
     </li>
+    <li>
+        90_tools
+        <div>
+            <small>
+                perlで作成した簡単なツール<br />
+                例：csv加工プログラムみたいな
+            </small>
+        </div>
+    </li>
+    <li>
+        91_websites
+        <div>
+            <small>
+                なんか適当な感じのwebサイトのサンプル
+                実際に運用する場合は別の場所に配置する
+            </small>
+        </div>
+    </li>
 </ul>
