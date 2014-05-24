@@ -1,9 +1,0 @@
-# carton snapshot format: version 1.0
-DISTRIBUTIONS
-  Acme-FizzBuzz-0.03
-    pathname: Y/YA/YAPPO/Acme-FizzBuzz-0.03.tar.gz
-    provides:
-      Acme::FizzBuzz 0.03
-    requirements:
-      ExtUtils::MakeMaker 6.42
-      Test::More 0
