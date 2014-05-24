@@ -1,4 +1,4 @@
-50_mojolicious
+51_hello
 ===========
 
 perlのフレームワークのMojolicousのサンプル
@@ -23,4 +23,5 @@ Server available at http://127.0.0.1:3000.
 ```
 ※これでURLにアクセスできる
 
+<img src="https://github.com/mshige1979/perl-sample/blob/master/50_mojolicious/51_hello/mojolicious_0001.png"></img>
 
