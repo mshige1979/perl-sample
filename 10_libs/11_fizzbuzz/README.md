@@ -2,6 +2,11 @@
 ===========
 
 Acumeモジュールを使用してインストール
+cpanfileにモジュールを記載する
+
+```
+requires 'Acme::FizzBuzz';
+```
 
 ## Carton exec
 ```
