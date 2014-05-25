@@ -39,3 +39,23 @@ print $hash->{"ccc"} . "\n";
 print "\n";
 
 ```
+
+## for文による繰り返し
+
+### %による繰り返し(keys1を使用してキーを取り出してキーを指定して表示する)
+```
+# for文で出力
+print "for文で出力する場合はkeysでキーを指定して値を取得する。\n";
+for my $key (keys %hash){
+    print $key . "=" . $hash{$key} . "\n";
+}
+```
+
+### $による繰り返しの場合は一度デリファレンスする必要があります。
+```
+# for文で出力
+print "for文で出力する場合はkeysでキーを指定して値を取得する。\n";
+for my $key (keys %{$hash}){
+    print $key . "=" . $hash->{$key} . "\n";
+}
+```
