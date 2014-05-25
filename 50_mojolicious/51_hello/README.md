@@ -10,8 +10,8 @@ mojo generate lite_app app.psgi
 
 ### 作成
 ```
-  [exist] /Users/matsumotoshigeharu/projects/perl-sample/50_mojolicious/51_hello
-  [write] /Users/matsumotoshigeharu/projects/perl-sample/50_mojolicious/51_hello/app.psgi
+  [exist] /perl-sample/50_mojolicious/51_hello
+  [write] /perl-sample/50_mojolicious/51_hello/app.psgi
   [chmod] app.psgi 744
 ```
 
