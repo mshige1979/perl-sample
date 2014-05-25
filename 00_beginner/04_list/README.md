@@ -55,4 +55,13 @@ for my $value(@list){
 print "\n";
 ```
 
+### $によるリファレンスの場合は一度デリファレンスする必要があります
+```
+print "for文で出力(デリファレンスすることでリスト変数と同じ動きができる)\n";
+for my $value(@{$list}){
+    print $value . "\n";
+}
+print "\n";
+```
+
 
