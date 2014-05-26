@@ -21,6 +21,18 @@ open my $fp, ">", "test2.txt"
 my $content = do{ local $/;<$fp> };
 ```
 
+### 改行を指定して順番に処理する場合
+```
+{
+    my $ln = "\x0A";
+    local $/ = $ln;
+    while(my $line = <$fp>){
+        chomp($line);
+        print ">$line$ln";
+    }
+}
+```
+
 ### ファイル書き込み
 ```
 print $fp "aaaaaaaaaaa\n";
