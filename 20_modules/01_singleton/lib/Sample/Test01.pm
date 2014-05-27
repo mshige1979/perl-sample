@@ -5,11 +5,16 @@ my $obj = undef;
 
 # new
 sub new{
-	my ($self) = @_;
-	my $refs = {
-		num => 0
-	};
-	my $obj = bless $refs, $self;
+	if($obj == undef){
+		my ($self) = @_;
+		my $refs = {
+			num => 0
+		};
+		my $obj = bless $refs, $self;
+		return $obj;
+	}else{
+		return $obj;
+	}
 }
 
 # インスタンスを生成

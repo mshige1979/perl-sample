@@ -13,3 +13,6 @@ $obj2->test1();
 
 my $obj3 = Sample::Test01::getInstance();
 $obj3->test1();
+
+my $obj4 = Sample::Test01->new();
+$obj4->test1();
